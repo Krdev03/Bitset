@@ -167,7 +167,7 @@ bool Set::isSubset(const Set& y) const{
 }
 bool operator==(const Set& x, const Set& y) {
 	return x.isSubset(y) && y.isSubset(x);
-} // Checks is the two sets are equivalent
+} // Checks if the two sets are equivalent
 bool operator!=(const Set& x, const Set& y) {
 	return !(x == y);
 } // Checks if the two sets are not equivalent
